@@ -8,7 +8,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Build project with Maven
-        run: mvn clean install -Dmaven.test.skip=true
+        run: mvn clean install -Dmaven.test.skip=true -O
       - name: Depcheck
         uses: dependency-check/Dependency-Check_Action@main
         id: Depcheck
