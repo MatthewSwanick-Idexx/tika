@@ -18,7 +18,7 @@
 name: main jdk11 build
 
 on:
-  push:
+  workflow_dispatch:
     branches: [ main ]
 
 jobs:
