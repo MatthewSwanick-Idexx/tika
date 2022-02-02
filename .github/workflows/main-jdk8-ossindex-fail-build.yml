@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 
-name: main pr build
+name: workflow_dispatch
 
 on:
   push:
