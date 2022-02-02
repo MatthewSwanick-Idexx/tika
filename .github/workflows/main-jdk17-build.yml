@@ -18,7 +18,7 @@
 name: main jdk17 build
 
 on:
-  push:
+  workflow_dispatch:
     branches: [ main ]
 
 jobs:
