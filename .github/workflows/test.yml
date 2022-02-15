@@ -10,7 +10,7 @@ jobs:
       - name: Build project with Maven
         run: mvn clean install -Dmaven.test.skip=true -U
       - name: Depcheck
-        uses: dependency-check/Dependency-Check_Action@main
+        uses: MatthewSwanick-Idexx/Dependency-Check_Action@main
         id: Depcheck
         with:
           project: 'test'
