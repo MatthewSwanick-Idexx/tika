@@ -15,7 +15,7 @@ jobs:
         with:
           project: 'test'
           path: '.'
-          format: 'HTML'    
+          format: 'CSV'    
           args: >
             --disableOssIndex false
             --failOnCVSS 7
